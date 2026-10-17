@@ -1,0 +1,199 @@
+{
+ "latest": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 2.5,
+  "violations": {},
+  "langs": [
+   "en"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "top": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Top",
+   "count": 10
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 1.8,
+  "violations": {},
+  "langs": [
+   "en"
+  ],
+  "years": [
+   "2021",
+   "2026"
+  ]
+ },
+ "lang-es": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10,
+   "lang": "es"
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 2.22,
+  "violations": {
+   "lang": 0
+  },
+  "langs": [
+   "es"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "min-likes-100": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Top",
+   "count": 10,
+   "min_likes": 100
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 6.12,
+  "violations": {
+   "min_likes": 0
+  },
+  "langs": [
+   "en"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "verified": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10,
+   "verified": "true"
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 2.02,
+  "violations": {
+   "verified": 10
+  },
+  "langs": [
+   "en",
+   "ja"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "blue-verified": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10,
+   "blue_verified": "true"
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 1.98,
+  "violations": {
+   "blue_verified": 0
+  },
+  "langs": [
+   "en",
+   "ja"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "is-image": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10,
+   "is_image": "true"
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 2.09,
+  "violations": {
+   "is_image": 0
+  },
+  "langs": [
+   "en",
+   "ja",
+   "nl",
+   "tr"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "is-video": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10,
+   "is_video": "true"
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 3.33,
+  "violations": {
+   "is_video": 0
+  },
+  "langs": [
+   "en",
+   "pt"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "date-window": {
+  "params": {
+   "query": "bitcoin",
+   "sort": "Latest",
+   "count": 10,
+   "start_date": "2026-10-14",
+   "end_date": "2026-10-15"
+  },
+  "status": 200,
+  "requested": 10,
+  "returned": 10,
+  "latency_s": 3.4,
+  "violations": {
+   "date": 0
+  },
+  "langs": [
+   "en",
+   "es"
+  ],
+  "years": [
+   "2026"
+  ]
+ },
+ "_run": {
+  "time": "2026-10-17 14:04:05-14:04:31 Asia/Tbilisi",
+  "calls": 9,
+  "header_total_usd": 0.0135
+ }
+}
